@@ -1,3 +1,4 @@
+// This is test script for using db and sever by node.js
 const express = require('express');
 const { Pool } = require('pg'); // Import Pool from pg to connect to the database
 const app = express();
@@ -64,5 +65,5 @@ app.use((err, req, res, next) => {
 
 // Start the server
 app.listen(port, () => {
-    console.log(`Server is running on port: ${port}`);
+    console.log(`Server is running on PORT: ${port}`);
 });

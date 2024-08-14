@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1c37514d-877c-4006-a119-655d060fff7c" name="Droplet Frankfurt">
+        <fileTransfer rootFolder="/root/servers/customer-city" accessType="SFTP" host="164.92.242.57" port="22" sshConfigId="a8bc806b-3ade-4481-a174-4c43813df2a8" sshConfig="root@164.92.242.57:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" isUseRsync="true" isUseSudo="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
